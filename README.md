@@ -24,7 +24,7 @@ Figure 2. The proposed MarsLS-Net architecture. (a) the overall framework of Mar
 Figure 3. Sample of landslides regions (128 × 128) in the MMLS dataset with their respective segmentation mask and modalities:
 (a) RGB, (b) DEM, (c) thermal inertia, (d) slope, (e) gray-scale, and (f) ground truth.
 
-<img src="images/mapNew.png"/>
+<img src="images/mapNew.jpg"/>
 
 Figure 4. Distribution of Martian landslides in the Valles Marineris region. Region (b) and (d) are used to train and validate deep learning models respectively, while region (c) is used for performance testing.
 
