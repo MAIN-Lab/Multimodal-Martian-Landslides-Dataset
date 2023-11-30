@@ -12,20 +12,21 @@ Figure 1. Location of Valles Marineris (VM) on Mars used for landslide segmentat
 
 
 ## Model
-<img src="images/CPLES_architecture_4.png"/>
+<img src="images/ourArchitecture.png"/>
 
-Figure 2. Detailed illustration of the proposed C-PLES architecture
+Figure 2. The proposed MarsLS-Net architecture. (a) the overall framework of MarsLS-Net model that is composed of a series of stacked PEN attention blocks, (b) represents the illustration of the multi-head self-attention mechanism, (c) provides details of the ConvPE Layer, and (d) illustrates the structure of the PEN attention block.
 
 
-## Results
+## Dataset Samples
 
-<img src="images/prediction_samples.png"/>
+<img src="images/Patches_sample_128_r.png"/>
 
-Figure 3. Visual comparison of multi-class Martian landslide segmentation outputs. (a) Input RGB image, (b) the segmentation mask (ground truth), (c) - (i) the segmentation outputs of experimented DL architectures: U-Net, Attention U-Net, TransUNet, R2UNet, UNet 3+, UNet++, and Swin-Unet, (j) the proposed C-PLES, respectively
+Figure 3. Sample of landslides regions (128 × 128) in the MMLS dataset with their respective segmentation mask and modalities:
+(a) RGB, (b) DEM, (c) thermal inertia, (d) slope, (e) gray-scale, and (f) ground truth.
 
-<img src="images/fullmap.png"/>
+<img src="images/mapNew.png"/>
 
-Figure 4. Segmentation map of the landslides in the Martian Valles Marineris region. Four random regions are zoomed in to show in detail a comparison between the ground truth and the predicted segmentation. The IoU scores for each class are shown on the bottom right side of the figure.
+Figure 4. Distribution of Martian landslides in the Valles Marineris region. Region (b) and (d) are used to train and validate deep learning models respectively, while region (c) is used for performance testing.
 
 
 ## Citation
