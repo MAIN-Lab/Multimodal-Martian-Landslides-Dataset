@@ -5,7 +5,7 @@ Martian landslide segmentation is a challenging task compared to the same task o
 
 
 <p align="center">
-  <img width=500 src="images/Figure_1.png">
+  <img width=500 src="images/Figure 1.png">
 </p>
 
 Figure 1. Location of Valles Marineris (VM) on Mars used for landslide segmentation in this study. The elevation map of VM draped over hillshade.
