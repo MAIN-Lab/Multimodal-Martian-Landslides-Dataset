@@ -8,7 +8,7 @@ Martian landslide segmentation is a challenging task compared to the same task o
   <img width=500 src="images/Figure_1.png">
 </p>
 
-Figure 1. Location of Valles Marineris (VM) on Mars used for landslide mapping in this study. (a) The multi-modality imagery used to train the (b) proposed segmentation model. (c) The output landslide segmentation map.
+Figure 1. Location of Valles Marineris (VM) on Mars used for landslide segmentation in this study. The elevation map of VM draped over hillshade.
 
 
 ## Model
